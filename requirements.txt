@@ -1,0 +1,13 @@
+# Core inference
+ultralytics>=8.0.0       # YOLOv8
+paddlepaddle>=2.5.0      # PaddleOCR backend (CPU build)
+paddleocr>=2.7.0
+
+# TTS (offline)
+pyttsx3>=2.90            # wraps eSpeak on Linux — no network needed
+
+# Camera
+opencv-python-headless>=4.8.0   # headless build — no GUI dependency on CM5
+
+# GPIO (Raspberry Pi only — comment out for dev on non-Pi hardware)
+# RPi.GPIO>=0.7.1
