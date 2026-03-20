@@ -13,6 +13,19 @@ Visually impaired users have limited access to affordable, offline assistive too
 
 ---
 
+## Features
+
+- Real-time edge AI pipeline (camera → inference → speech)
+- YOLOv8n object detection optimized for CPU inference
+- PaddleOCR pipeline (DBNet + CRNN) for robust text recognition
+- Offline TTS (pyttsx3/eSpeak), fully network-independent
+- GPIO-based mode switching (no GUI required)
+- Frame skipping + bounded queues for low-latency operation
+- Redundancy filtering using Jaccard similarity
+- Runs with or without Raspberry Pi hardware (graceful fallbacks)
+
+---
+
 ## Architecture
 
 ```
